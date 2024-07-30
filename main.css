@@ -36,7 +36,7 @@ button {
 
 button:hover {
     border: 1px solid #FFFFFF;
-    background-color: #37B6BE;
+    background-color: #78c2c8;
     color: #FFFFFF;
 }
 
@@ -80,6 +80,7 @@ p {
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .header{
@@ -361,4 +362,71 @@ header a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.img-full {
+    width: 65%;
+    margin-block-end: 40px;
+}
+
+.work-detail {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.work-detail h4 {
+    width: 30%;
+}
+
+.work-detail p {
+    width: 70%;
+    text-align: left;
+}
+
+.tool {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.tool h4{
+    width: 30%;
+}
+
+.tool p {
+    width: 70%;
+    text-align: left;
+}
+
+.button-left {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.visit-button {
+    margin-block: 0 40px;
+    margin-inline: 40px;
+}
+
+.visit-button button {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #EBE8A8;
+    color: #37B6BE;
+}
+
+.visit-button button:hover {
+    border: 1px solid #EBE8A8;
+    background-color: #6DC5B8;
+    color: #EBE8A8;
+}
+
+.visit-button p {
+    letter-spacing: normal;
 }
